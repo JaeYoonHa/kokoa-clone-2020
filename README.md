@@ -1,3 +1,4 @@
 # kakao - clone - 2020 
 
-css got so much better!
+html and css going!
+javascript jquery apple
