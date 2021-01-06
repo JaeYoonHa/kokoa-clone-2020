@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- 외부스타일시트 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>연습</title>
 </head>
 <body>
-    <h1>안녕하세요.</h1>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-bolt"></i>
+            <span>11%</span>
+            <i class="fas fa-battery-quarter"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+        <p class="welcome-header__text">if you have a Kakao Account,<br>
+        log in with your email or phone nember.</p>
+    </header>
+    <form>
+        <input type="email" placeholder="Email or phone nember">
+        <input type="password" placeholder="password">
+        <input type="submit" value="Log in">
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
 </body>
 </html>

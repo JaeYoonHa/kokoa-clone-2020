@@ -1,0 +1,42 @@
+@charset
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* 상단-상태바 */
+.status-bar {
+    display: flex;
+    width: 100%;
+}
+.status-bar__column {
+    width: 33.3333%;
+    display: flex;
+}
+.status-bar__column:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status-bar__column:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar__column:nth-child(1) .fa-wifi {
+    margin: 0 5px;
+}
+.status-bar__column:nth-child(2) span {}
+
+.status-bar__column:nth-child(3) span {
+    margin: 0 5px;
+}
+
+
+/* 타이틀-header */
