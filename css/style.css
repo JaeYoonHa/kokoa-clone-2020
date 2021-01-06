@@ -7,3 +7,49 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.welcome-header {
+    margin: 90px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome-header__title {
+    font-size: 25px;
+    font-weight: 500;
+}
+.welcome-header__text {
+    color: #ddd;
+    margin-bottom: 20px;
+    width: 60%;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+#login-form input {
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#login-form input:nth-child(2) {
+    margin-bottom: 40px;
+}
+#login-form input:nth-child(3) {
+    border-radius: 5px;
+}
+#login-form a {
+    margin-top: 15px;
+    text-align: center;
+    color: silver;
+    font-size: 14px;
+    text-decoration: none;
+}
+#login-form input::placeholder {
+    color:#fae100
+}
+#login-form input:focus {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
