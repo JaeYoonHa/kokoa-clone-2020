@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 * {
     font-family: 'Oswald', sans-serif;
@@ -33,6 +34,7 @@
     border: none;
     font-size: 18px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
 }
 #login-form input:nth-child(2) {
     margin-bottom: 40px;
@@ -48,8 +50,8 @@
     text-decoration: none;
 }
 #login-form input::placeholder {
-    color:#fae100
+    color:silver;
 }
 #login-form input:focus {
-    border-bottom: 1px solid rgba(0,0,0,0.4);
+    border-color: var(--yellow);
 }
