@@ -1,13 +1,15 @@
 .status-bar {
     display: flex;
     justify-content: center;
+    justify-content: center;
+    align-items: center;
     padding: 5px 3px;
 }
 .status-bar__column {
     width: 33.3333%;
     display: flex;
 }
-.status-bar__column:nth-child(1) {
+.status-bar__column:first-child {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -17,7 +19,7 @@
     justify-content: center;
     align-items: center;
 }
-.status-bar__column:nth-child(3) {
+.status-bar__column:last-child {
     display: flex;
     justify-content: flex-end;
     align-items: center;

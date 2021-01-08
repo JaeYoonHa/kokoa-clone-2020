@@ -1,0 +1,73 @@
+/* 메인헤더 */
+.welcome-header {
+    margin: 90px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome-header__title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.welcome-header__text {
+    color: #ddd;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+/* 로그인 */
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+#login-form input {
+    border: none;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: normal;
+    border-color: #000;
+    margin-bottom: 25px;
+}
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+#login-form input:first-child {
+    padding: 20px;
+}
+#login-form input:nth-child(2) {
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#login-form input:last-child {
+    border-radius: 5px;
+}
+/*login-button */
+#login-form input[type="submit"] {
+    cursor: pointer;
+    background-color: var(--pink);
+    color: #fff;
+}
+#login-form input[value="Log in"] {
+    color: #fff;
+}
+#login-form a {
+    margin-top: 15px;
+    text-align: center;
+    color: silver;
+    font-size: 14px;
+    text-decoration: none;
+}
+#login-form input::placeholder {
+    color:silver;
+}
+/* input 클릭 시  */
+#login-form input:focus {
+    border-color: var(--gold);
+    color: #000;
+    transition:color 0.3s ease-in-out;
+}
