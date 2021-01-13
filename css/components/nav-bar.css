@@ -1,0 +1,44 @@
+@charset "utf-8";
+.nav {
+    background-color: #ddd;
+    border-top: 1px solid rgba(181, 176, 176, 0.3);
+    padding: 20px 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    color: #2e3632;
+    position: relative;
+}
+.nav__btn {}
+.nav__notification {
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+.nav__dot {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}

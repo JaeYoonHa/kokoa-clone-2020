@@ -1,13 +1,18 @@
 @charset "utf-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import "reset.css";
 @import "variables.css";
 /*components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 /*login*/
 @import "screens/login.css";
 
+
 body {
     font-family: 'Oswald', sans-serif;
+    height: 1000vh;
 }
 
