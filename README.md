@@ -1,3 +1,3 @@
 # kakao - clone - 2020 
 
-html & css prcatice
+html & css 연습
